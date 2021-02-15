@@ -20,7 +20,6 @@ df=pd.DataFrame(data)
 cf=df['confidence']
 cf=pd.to_numeric(cf)
 file_id=df['file_id']
-#file_id=pd.to_numeric(file_id)
 bbox=df['bbox']
 
 bboxes=[]

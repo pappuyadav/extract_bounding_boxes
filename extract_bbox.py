@@ -28,7 +28,7 @@ for i in range(len(cf)):
     if cf[i] >=confidence_threshold:
         bboxes.append(bbox[i])
         f_id.append(file_id[i])
-vc_num=len(bboxes)
+objects_num=len(bboxes)
 print("There are total number of detected objects=",objects_num)
 
 header=['file_id','bbox_coordinates']       

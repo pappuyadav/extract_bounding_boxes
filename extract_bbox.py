@@ -30,7 +30,7 @@ for i in range(len(cf)):
         bboxes.append(bbox[i])
         f_id.append(file_id[i])
 vc_num=len(bboxes)
-print("There are total number of detected volunteer cotton plants=",vc_num)
+print("There are total number of detected objects=",objects_num)
 
 header=['file_id','bbox_coordinates']       
 with open("bbox_coordinates.csv", 'w') as file: 
